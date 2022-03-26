@@ -14,6 +14,7 @@ Here, we use release [v3.5.2](https://github.com/Azure/azure-functions-host/rele
 
 ## Build an image
 Build your function webhost image as follows:
+
 `docker build -t functions.webhost --build-arg WINDOWS_VERSION=ltsc2022 --build-arg HOST_VERSION=3.5.2 .`
 
 ## Run the image
